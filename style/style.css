@@ -21,6 +21,7 @@ body{
 
 .btn{
     background: var(--secondary-color);
+    position: relative;
 }
 
 .main-navbar{
@@ -98,7 +99,8 @@ h5{
 }
 .main-navbar_searchContainer_search{
     padding: 15px 25px;
-   
+    text-align: center;
+    font-size: 1.2rem;
     height: 45px;
     border-radius: 0px 4px 4px 0px;
 }
@@ -106,4 +108,14 @@ h3{
     font-family: monospace, sans-serif;
     font-size: 30px;
     margin: 20px 0px; 
+}
+.icon-search{
+    position: absolute;
+    width: 2em;
+    height: 2em;
+    top: 6em;
+    right: 6em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
