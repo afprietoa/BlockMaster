@@ -68,7 +68,7 @@ body{
 }
 .image{
     max-width: 100%;
-    width: 280px;
+    width: 290px;
     display: flex;
     cursor: pointer;
 }
