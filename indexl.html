@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    
+    <title>Block Master</title>
+</head>
+
+<body>
+
+    <header class="main-header">
+        <nav class="main-navbar">
+            <div class='main-logo'>
+                <img  src="./icons/logo-blockBuster.png" alt="" class="main-logo__img">
+            </div>
+            <div class="main-navbar">
+                <a href="#" class="main-navbar__link">Todas</a>
+                <a href="#" class="main-navbar__link">Más valoradas</a>
+                <a href="#" class="main-navbar__link">Menos valoradas</a>
+            </div>
+            <div class="main-navbar_searchContainer">
+                <input type="text" id="search" class="main-navbar_searchContainer_search" placeholder="Search"/>
+                <button id="btn-search" class="main-navbar_searchContainer--btn"><ion-icon name="search-outline"></ion-icon></button>
+            </div>
+        </nav>
+    </header>
+    
+    <h3>Todas las peliculas</h3>
+
+    <div class="row" id="items"></div>
+
+    <template id="template-card">
+        <div class="card">
+            <h5></h5>
+            <img id="image" class="image" src="" alt="">
+        </div>
+    </template>
+
+
+
+</body>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="./script/script.js"></script>
+</html>
