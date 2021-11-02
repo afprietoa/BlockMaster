@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Block Master</title>
+    
+    <link rel="stylesheet" href="style/users.css">
+</head>
+<body>
+    <header class="main-header">
+        <nav class="main-navbar">
+            <div class='main-logo'>
+                <img  src="./icons/logo-blockBuster.png" alt="" class="main-logo__img">
+            </div>
+            <div class="main-navbar">
+                <a href="index.html" class="main-navbar__link">All</a>
+                <a href="#" class="main-navbar__link">Best ranked</a>
+                <a href="#" class="main-navbar__link">Worst ranked</a>
+                <a href="users.html" >
+                  <ion-icon name="person-circle" class="user-icon"></ion-icon>
+                </a>
+                <a href="movies.html">
+                  <ion-icon name="videocam-outline" class="film-icon"></ion-icon>
+              </a>
+            </div>
+            <div class="searchContainer">
+                <input type="text" id="search" class="searchContainer_search" placeholder="Search"/>
+                <button id="btn-search" class="searchContainer--btn"><ion-icon name="search-outline" class="icon-search"></ion-icon></button>
+            </div>
+            
+        </nav>
+    </header>
+
+   
+
+    <div class="container-form">
+
+          
+          
+        <h2>Sign in</h2>
+        <!-- <h3 class="h3">Sign in</h3> -->
+
+      <br>
+
+      
+
+
+        <div class="form">
+          <div class=" space icon-relative">
+            <label class="label">E-mail:</label>
+            <input type="email" class="input" id="email" placeholder="netmail">
+            
+            <i class="fas fa-envelope"></i>
+          </div>
+          <div class=" space icon-relative">
+            <label class="label">Id:</label>
+            <input type="id" class="input" id="id" placeholder="identifier">
+            
+            <i class="fas fa-lock"></i>
+          </div>
+          <div class="card-grp space">
+            <div class="card-item icon-relative">
+              <label class="label">First Name:</label>
+              <input type="text" name="expiry-data" class="input" id="name" placeholder="forename">
+              
+              <i class="fas fa-user"></i>
+            </div>
+            <div class="card-item icon-relative">
+              <label class="label">Last Name:</label>
+              <input type="text" class="input" id="lastName" placeholder="surname">
+              
+              <i class="fas fa-user"></i>
+            </div>
+          </div>
+            
+          
+
+          <div id="shop"></div>
+
+
+          <div class="btn-container">
+                <div class="btn2 btnS" id="btnSend">
+                    SAVE
+                </div> 
+                <div class="btn2 btnD" id="btnDelete">
+                    DELETE
+                </div>
+          </div>
+        
+          <div class="btn1 btnU" id="btnEdit">
+            UPDATE
+          </div>
+          <div class="btn1" id="btnId">
+            SEARCH
+          </div>
+
+
+          
+        </div>
+      </div>
+
+
+
+      <!--users list-->
+    <div class="container-table" id="list"> 
+      <div>
+          <h2 class="card-title text-center">Users</h2>
+              <table class="table-card">
+                  <thead>
+                      <tr>
+                          <th>Id</th>
+                          <th>First name</th>
+                          <th>Last name</th>
+                          <th>E-mail</th>
+                          <th>Action</th>
+                      </tr>
+                      <tbody id="listarCita"></tbody>
+                  </thead>
+              </table>
+          </div>
+      </div>
+  </div>
+
+
+
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+        <script src="https://kit.fontawesome.com/33e495fb35.js" crossorigin="anonymous"></script>
+    <script src="./script/users.js"></script>
+</body>
+</html>

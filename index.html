@@ -6,44 +6,279 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/style.css">
-    
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+        integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css"
+        integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+      
+
     <title>Block Master</title>
 </head>
 
-<body>
+<body class="body">
+    <!-- -----------------------------NAV-BAR----------------------------- -->
 
     <header class="main-header">
         <nav class="main-navbar">
             <div class='main-logo'>
-                <img  src="./icons/logo-blockBuster.png" alt="" class="main-logo__img">
+                <img src="./icons/logo-blockBuster.png" alt="" class="main-logo__img">
             </div>
             <div class="main-navbar">
-                <a href="#" class="main-navbar__link">Todas</a>
-                <a href="#" class="main-navbar__link">Más valoradas</a>
-                <a href="#" class="main-navbar__link">Menos valoradas</a>
+                <a href="index.html" class="main-navbar__link">All</a>
+                <a href="#" class="main-navbar__link" id="best"> Best ranked</a>
+                <a href="#" class="main-navbar__link " id="worst">Worst ranked</a>
+                <a href="users.html">
+                    <ion-icon name="person-circle" class="user-icon"></ion-icon>
+                </a>
+                <a href="movies.html">
+                    <ion-icon name="videocam-outline" class="film-icon"></ion-icon>
+                </a>
             </div>
-            <div class="main-navbar_searchContainer">
-                <input type="text" id="search" class="main-navbar_searchContainer_search" placeholder="Search"/>
-                <button id="btn-search" class="main-navbar_searchContainer--btn"><ion-icon name="search-outline" class="icon-search"></ion-icon></button>
+            <div class="searchContainer">
+                <input type="text" id="search" class="searchContainer_search" placeholder="Search" />
+                <button id="btn-search" class="searchContainer--btn">
+                    <ion-icon name="search-outline" class="icon-search"></ion-icon>
+                </button>
             </div>
+
         </nav>
     </header>
-    
-    <h3>Todas las peliculas</h3>
 
-    <div class="row" id="items"></div>
 
-    <template id="template-card">
-        <div class="card">
-            <h5></h5>
-            <img id="image" class="image" src="" alt="">
+    <!-- -----------------------------BANNER Bootstrap----------------------------- -->
+
+    <div class="container" style="margin-top:30px;">
+
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="./images/mulan.png" width="100%">
+                    <div class="carousel-caption">
+                        <h3>Mulan</h3>
+                        <p>(2020)</p>
+                    </div>
+                    <div class="slider-buttons">
+                        <a href="#" class="button-cta btn-primarys margin-right">
+                            <img src="./icons/icon-play.png" alt="Icon play" aria-hidden="true">
+                            <span>PLAY NOW</span>
+                        </a>
+                        <a href="#" class="button-cta btn-secondarys">
+                            <img src="./icons/icon-plus.png" alt="Icon play" aria-hidden="true">
+                            <span>WATCH LATER</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="./images/raya.png" width="100%">
+                    <div class="carousel-caption">
+                        <h3>Raya</h3>
+                        <p>(2021)</p>
+                    </div>
+                    <div class="slider-buttons">
+                        <a href="#" class="button-cta btn-primarys margin-right">
+                            <img src="./icons/icon-play.png" alt="Icon play" aria-hidden="true">
+                            <span>PLAY NOW</span>
+                        </a>
+                        <a href="#" class="button-cta btn-secondarys">
+                            <img src="./icons/icon-plus.png" alt="Icon play" aria-hidden="true">
+                            <span>WATCH LATER</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="./images/unidos.png" width="100%">
+                    <div class="carousel-caption">
+                        <h3>Onward</h3>
+                        <p>(2020)</p>
+                    </div>
+                    <div class="slider-buttons">
+                        <a href="#" class="button-cta btn-primarys margin-right">
+                            <img src="./icons/icon-play.png" alt="Icon play" aria-hidden="true">
+                            <span>PLAY NOW</span>
+                        </a>
+                        <a href="#" class="button-cta btn-secondarys">
+                            <img src="./icons/icon-plus.png" alt="Icon play" aria-hidden="true">
+                            <span>WATCH LATER</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
-    </template>
 
+    </div>
+
+   
+
+    <script type="text/javascript">
+        $(function() {
+            $('.carousel').carousel({
+              interval: 1000
+            });
+        });
+    </script>
+
+
+    <!-- -----------------------------CARDS----------------------------- -->
+    <div class="container-cards">
+        <h3 class="head-line"></h3>
+        <div class="cards" id="items"></div>
+
+        <template id="template-card">
+            <div class="card">
+
+                <img id="image" class="image-cards" src="" alt="" data-toggle="modal" data-target="#myModal1">
+                
+
+                <div class="vote-average-container">
+                    <ion-icon name="star" class="icon-top"></ion-icon>
+                    <h3 class="vote-average"></h3>
+                </div>
+
+            </div>
+        </template>
+    </div>
+    <!-- -----------------------------POP-UP MODALS Bootstrap----------------------------- -->
+
+    <div class="modal fade modal1" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog modal-dialog1" role="document">
+          <div class="modal-content modal-content1">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h3 class="modal-title text-center" id="myModalLabel">BLOCK MASTER</h3>
+            </div>
+            <div class="modal-body modal-body1">
+              <!-- 这里是正文！ -->
+          
+            
+              <div class="card mb-3 " style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4 card-Tg">            
+
+                                    <div class="container-cards contCTg">
+                                    
+                                        <!-- <div class="cards cardsTg" id="items"></div> -->
+                                    
+                                            <div id="template-card" class="templateTg">
+                                                
+                                    
+                                                    <img id="image" class="image-cards imgTg img-fluid rounded-start" src="" alt="" style="    height: 380px;
+                                                        width: 290px;">
+                                                    
+                                    
+                                                    <div class="vote-average-container voteContTg">
+                                                        <ion-icon name="star" class="icon-top starTg"></ion-icon>
+                                                        <h3 class="vote-average voteTg"></h3>
+                                                    </div>
+                                    
+                                                
+                                            </div>
+                                        
+                                    </div>
+                    </div>
+
+                                <div class="col-md-8 cardCnt" src="" alt="" style="    height: 800px;
+                                                        width: 1200px;">
+
+                                    <div class="card-body cardbTg">
+                                        <h2 class="card-title titleTg"></h2>
+                                        <p class="card-text descripTg"></p>
+                                    </div>
+                                    
+
+
+                                </div>
+
+
+                </div>
+            </div>
+
+            </div>
+            <div class="modal-footer">
+
+
+                <div class="slider-buttons sliderbTg">
+                    <a href="#" class="button-cta btn-primarys margin-right btn-play" id="btn-play" data-toggle="modal" data-target="#myModal2">
+                        <img src="./icons/icon-play.png" alt="Icon play" aria-hidden="true" >
+                        <span>PLAY NOW</span>
+                    </a>
+                    <a href="#" class="button-cta btn-secondarys">
+                        <img src="./icons/icon-plus.png" alt="Icon play" aria-hidden="true">
+                        <span>WATCH LATER</span>
+                    </a>
+                </div>
+
+
+              <!-- <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+              <button type="button" class="btn btn-primary">保存</button> -->
+
+            </div>
+          </div>
+        </div>
+      </div>
+  
+
+    <!-- -----------------------------------Modal Video---------------------------------- -->
+
+    <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog modalDiagV" >
+            <div class="modal-content">
+                <div class="modal-header">
+
+                </div>
+                <div class="modal-body modal-body2">
+                    <h5 class="h5"></h5>
+
+                            <iframe width="565" height="400"
+                                src=''>
+                            </iframe>
+                            
+
+                    
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+<!-- -----------------------------------Modal Links---------------------------------- -->
+
+
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+          integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+          crossorigin="anonymous"></script>
+
+ 
 
 
 </body>
+
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+
 <script src="./script/script.js"></script>
+
 </html>

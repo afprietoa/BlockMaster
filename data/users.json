@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "first_name": "Andres",
+      "last_name": "Prieto",
+      "e_mail": "afprietoa@unal.edu.co",
+      "id": 1
+    },
+    {
+      "first_name": "Yesenia",
+      "last_name": "Naranjo",
+      "e_mail": "yesenia.naranjo@makaia.org",
+      "id": 2
+    },
+    {
+      "first_name": "John",
+      "last_name": "Florez",
+      "e_mail": "john.florez@academiageek.co",
+      "id": 3
+    },
+    {
+      "first_name": "Silvia",
+      "last_name": "García",
+      "e_mail": "becaria.silvia.garcia@agileinnova.org",
+      "id": 4
+    },
+    {
+      "first_name": "Jenny",
+      "last_name": "Montoya",
+      "e_mail": "becaria.jenny.montoya@agileinnova.org",
+      "id": 5
+    },
+    {
+      "first_name": "Libardo",
+      "last_name": "Castellanos",
+      "e_mail": "libardo.castellanos@academiageek.co",
+      "id": 6
+    },
+    {
+      "first_name": "Monica",
+      "last_name": "Sanchez",
+      "e_mail": "mosanchezc@sena.edu.co",
+      "id": 7
+    }
+  ]
+}
