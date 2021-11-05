@@ -50,7 +50,7 @@ btnSend.addEventListener('click', async(e) =>{
      const data  = await resp.json()
      console.log(data)
 
-     //find: recpore listas o para los arreglos
+    //find: recpore listas o para los arreglos
     //comparación dela propiedad correo de cada uno de los objetos
     //find responde con el objeto a la coincidencia encontrada
      const lookUp = data.find(user => user.e_mail.toLowerCase() === net_mail.toLowerCase())
@@ -106,7 +106,7 @@ btnSend.addEventListener('click', async(e) =>{
      })
 // ---------------------------------------------------------------------------------------------------------------------
 let list = document.getElementById('list')
-
+let listUsers = document.getElementById('listUsers')
 document.addEventListener('DOMContentLoaded', async() => {
     
     const resp = await fetch(url)
@@ -116,14 +116,25 @@ document.addEventListener('DOMContentLoaded', async() => {
     
     data.forEach(film => {
         const {first_name,last_name,e_mail,id} = film;
-        listarCita.innerHTML += `
+        listUsers.innerHTML += `
                         <td>${id}</td>
                         <td>${first_name}</td>
                         <td>${last_name}</td>
                         <td>${e_mail}</td>
-                        <td><button id=${id}>Delete</button></td>
+                        <td><button style="background:red; color:white; padding:7px;" id=${id}>X</button></td>
         `
     })
 })
 
 
+
+listUsers.addEventListener('click', async(e) => {
+    let id = e.target.id;
+    console.log(id)
+    
+    if(id !== ''){
+        await fetch(url+id,{
+            method:'DELETE'    
+          })
+    }
+})

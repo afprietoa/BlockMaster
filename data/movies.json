@@ -1,484 +1,436 @@
 {
-    "movies": [
-        {
-            "id": 1,
-            "title": "Bird Box",
-            "release": "2018",
-            "duration": "2h 4m",
-            "genres": "Thriller, Drama, Science Fiction",
-            "synopsis": "Five years after an ominous unseen presence drives most of society to suicide, a survivor and her two children make a desperate bid to reach safety.",
-            "image": "./images/27.jpg"
-    
-        },
-        {
-            "id": 2,
-            "title": "The Irishman",
-            "release": "2019",
-            "duration": "3h 29m",
-            "genres": "Crime, Drama, History",
-            "synopsis": "Pennsylvania, 1956. Frank Sheeran, a war veteran of Irish origin who works as a truck driver, accidentally meets mobster Russell Bufalino. Once Frank becomes his trusted man, Bufalino sends him to Chicago with the task of helping Jimmy Hoffa, a powerful union leader related to organized crime, with whom Frank will maintain a close friendship for nearly twenty years.",
-            "image": "./images/28.jpg"
-    
-        },
-        {
-            "id": 3,
-            "title": "Extraction",
-            "release": "2020",
-            "duration": "1h 56m",
-            "genres": "Drama, Action, Thriller",
-            "synopsis": "Tyler Rake, a fearless mercenary who offers his services on the black market, embarks on a dangerous mission when he is hired to rescue the kidnapped son of a Mumbai crime lord.",
-            "image": "./images/29.jpg"
-    
-        },
-        {
-            "id": 4,
-            "title": "Cherry",
-            "release": "2021",
-            "duration": "2h 20m",
-            "genres": "Crime, Drama",
-            "synopsis": "Cherry drifts from college dropout to army medic in Iraq - anchored only by his true love, Emily. But after returning from the war with PTSD, his life spirals into drugs and crime as he struggles to find his place in the world.",
-            "image": "./images/30.jpg"
-    
-        },
-        {
-            "id": 5,
-            "title": "Crisis",
-            "release": "2021",
-            "duration": "1h 58m",
-            "genres": "Thriller, Crime, Drama",
-            "synopsis": "Three stories about the world of opioids collide: a drug trafficker arranges a multi-cartel Fentanyl smuggling operation between Canada and the U.S., an architect recovering from an OxyContin addiction tracks down the truth behind her son's involvement with narcotics, and a university professor battles unexpected revelations about his research employer, a drug company with deep government influence bringing a new -non-addictive- painkiller to market.",
-           "image": "./images/31.jpg"
-    
-        },
-        {
-            "id": 6,
-            "title": "Tenet",
-            "release": "2020",
-            "duration": "2h 35m",
-            "genres": "Action, Thriller, Science Fiction",
-            "synopsis": "Armed with only one word - Tenet - and fighting for the survival of the entire world, the Protagonist journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time.",
-            "image": "./images/32.jpg"
-    
-        },
-        {
-            "id": 7,
-            "title": "The Exorcism of Carmen Farias",
-            "release": "2021",
-            "duration": "1h 50m",
-            "genres": "Horror",
-            "synopsis": "Carmen, a brave journalist, discovers soon after her mother's death that she has inherited her grandma's house. She decides to move there without knowing it hides dark secrets.",
-            "image": "./images/33.jpg"
-    
-        },
-        {
-            "id": 8,
-            "title": "Crawl",
-            "release": "2019",
-            "duration": "1h 28m",
-            "genres": "Thriller, Horror",
-            "synopsis": "When a huge hurricane hits her hometown in Florida, Haley ignores evacuation orders to look for her father. After finding him badly wounded, both are trapped by the flood. With virtually no time to escape the storm, they discover that rising water levels are the least of their problems.",
-            "image": "./images/34.jpg"
-    
-        },
-        {
-            "id": 9,
-            "title": "Alone",
-            "release": "2020",
-            "duration": "1h 40m",
-            "genres": "Thriller, Horror, Drama",
-            "synopsis": "A recently widowed traveler is kidnapped by a cold blooded killer, only to escape into the wilderness where she is forced to battle against the elements as her pursuer closes in on her.",
-            "image": "./images/35.jpg"
-    
-        },
-        {
-            "id": 10,
-            "title": "The Tax Collector",
-            "release": "2020",
-            "duration": "1h 35m",
-            "genres": "Action, Crime, Drama",
-            "synopsis": "David Cuevas is a family man who works as a gangland tax collector for high ranking Los Angeles gang members. He makes collections across the city with his partner Creeper making sure people pay up or will see retaliation. An old threat returns to Los Angeles that puts everything David loves in harm’s way.",
-            "image": "./images/36.jpg"
-    
-        },
-        {
-            "id": 11,
-            "title": "Charlie's Angels",
-            "release": "2018",
-            "duration": "2h 5m",
-            "genres": "Action, Adventure, Comedy",
-            "synopsis": "When a systems engineer blows the whistle on a dangerous technology, Charlie's Angels from across the globe are called into action, putting their lives on the line to protect society.",
-            "image": "./images/37.jpg"
-    
-        },
-        {
-            "id": 12,
-            "title": "Nobody",
-            "release": "2021",
-            "duration": "1h 32m",
-            "genres": "Action, Crime, Thriller, Drama",
-            "synopsis": "Hutch Mansell, a suburban dad, overlooked husband, nothing neighbor — a -nobody.- When two thieves break into his home one night, Hutch's unknown long-simmering rage is ignited and propels him on a brutal path that will uncover dark secrets he fought to leave behind.",
-            "image": "./images/38.jpg"
-    
-        },
-        {
-            "id": 13,
-            "title": "Awake",
-            "release": "2021",
-            "duration": "1h 36m",
-            "genres": "Drama, Science Fiction, Thriller",
-            "synopsis": "After a sudden global event wipes out all electronics and takes away humankind’s ability to sleep, chaos quickly begins to consume the world. Only Jill, an ex-soldier with a troubled past, may hold the key to a cure in the form of her own daughter. The question is, can Jill safely deliver her daughter and save the world before she herself loses her mind.",
-            "image": "./images/39.jpg"
-    
-        },
-        {
-            "id": 14,
-            "title": "London Has Fallen",
-            "release": "2016",
-            "duration": "1h 39m",
-            "genres": "London Has Fallen",
-            "synopsis": "In London for the Prime Minister's funeral, Mike Banning discovers a plot to assassinate all the attending world leaders.",
-            "image": "./images/40.jpg"
-    
-        },
-        {
-            "id": 15,
-            "title": "Fifty Shades Darker",
-            "release": "2017",
-            "duration": "1h 55m",
-            "genres": "Drama, Romance",
-            "synopsis": "When a wounded Christian Grey tries to entice a cautious Ana Steele back into his life, she demands a new arrangement before she will give him another chance. As the two begin to build trust and find stability, shadowy figures from Christian’s past start to circle the couple, determined to destroy their hopes for a future together.",
-            "image": "./images/41.jpg"
-    
-        },
-        {
-            "id": 16,
-            "title": "Hidden Figures",
-            "release": "2016",
-            "duration": "2h 7m",
-            "genres": "Drama, History",
-            "synopsis": "The untold story of Katherine G. Johnson, Dorothy Vaughan and Mary Jackson – brilliant African-American women working at NASA and serving as the brains behind one of the greatest operations in history – the launch of astronaut John Glenn into orbit. The visionary trio crossed all gender and race lines to inspire generations to dream big.",
-            "image": "./images/42.jpg"
-    
-        },
-        {
-            "id": 17,
-            "title": "Interstellar",
-            "release": "2014",
-            "duration": "2h 49m",
-            "genres": "Adventure, Drama, Science Fiction",
-            "synopsis": "The adventures of a group of explorers who make use of a newly discovered wormhole to surpass the limitations on human space travel and conquer the vast distances involved in an interstellar voyage.",
-            "image": "./images/43.jpg"
-    
-        },
-        {
-            "id": 18,
-            "title": "Knock Knock",
-            "release": "2015",
-            "duration": "1h 39m",
-            "genres": "Drama, Thriller, Horror",
-            "synopsis": "When a devoted husband and father is left home alone for the weekend, two stranded young women unexpectedly knock on his door for help. What starts out as a kind gesture results in a dangerous seduction and a deadly game of cat and mouse.",
-            "image": "./images/44.jpg"
-    
-        },
-        {
-            "id": 19,
-            "title": "The Maze Runner",
-            "release": "2015",
-            "duration": "2h 12m",
-            "genres": "Action, Mystery, Science Fiction, Thriller",
-            "synopsis": "Set in a post-apocalyptic world, young Thomas is deposited in a community of boys after his memory is erased, soon learning they're all trapped in a maze that will require him to join forces with fellow “runners” for a shot at escape.",
-            "image": "./images/45.jpg"
-    
-        },
-        {
-            "id": 20,
-            "title": "Mortal engines",
-            "release": "2018",
-            "duration": "2h 8m",
-            "genres": "Aventura, Ciencia ficción",
-            "synopsis": "Miles de releases después de la destrucción de la civilización por un cataclismo, la humanidad se ha adaptado y, ahora, existen gigantescas ciudades en movimiento que vagan por la tierra sobre enormes ruedas absorbiendo a los pueblos más pequeños para obtener recursos. En una de esas colosales urbes Tom Natsworthy (Robert Sheehan), proveniente de la clase baja de Londres, deberá luchar por su vida junto a la peligrosa fugitiva Hester Shaw (Hera Hilmar). Dos opuestos, cuyos caminos nunca debieron cruzarse, forman una peculiar alianza destinada a cambiar el curso del futuro.",
-            "image": "./images/46.jpg"
-    
-        },
-        {
-            "id": 21,
-            "title": "First Man",
-            "release": "2018",
-            "duration": "2h 21m",
-            "genres": "History, Drama",
-            "synopsis": "Set in a post-apocalyptic world, young Thomas is deposited in a community of boys after his memory is erased, soon learning they're all trapped in a maze that will require him to join forces with fellow “runners” for a shot at escape.",
-            "image": "./images/47.jpg"
-    
-        },
-        {
-            "id": 22,
-            "title": "The Revenant",
-            "release": "2015",
-            "duration": "2h 4m",
-            "genres": "Western, Drama, Adventure",
-            "synopsis": "In the 1820s, a frontiersman, Hugh Glass, sets out on a path of vengeance against those who left him for dead after a bear mauling.",
-            "image": "./images/48.jpg"
-    
-        },
-        {
-            "id": 23,
-            "title": "The Accountant",
-            "release": "2016",
-            "duration": "2h 8m",
-            "genres": "Crime, Thriller, Drama",
-            "synopsis": "As a math savant uncooks the books for a new client, the Treasury Department closes in on his activities and the body count starts to rise.",
-            "image": "./images/49.jpg"
-    
-        },
-        {
-            "id": 24,
-            "title": "IO",
-            "release": "2019",
-            "duration": "2h 4m",
-            "genres": "Science Fiction",
-            "synopsis": "As a young scientist searches for a way to save a dying Earth, she finds a connection with a man who's racing to catch the last shuttle off the planet.",
-            "image": "./images/50.jpg"
-    
-        },
-        {
-            "id": 25,
-            "title": "Baby Driver",
-            "release": "2017",
-            "duration": "1h 55m",
-            "genres": "Action, Crime",
-            "synopsis": "After being coerced into working for a crime boss, a young getaway driver finds himself taking part in a heist doomed to fail.",
-            "image": "./images/51.jpg"
-    
-        },
-        {
-            "id": 26,
-            "title": "Gifted",
-            "release": "2017",
-            "duration": "1h 41m",
-            "genres": "Family, Drama, Comedy",
-            "synopsis": "Frank, a single man raising his child prodigy niece Mary, is drawn into a custody battle with his mother.",
-           "image": "./images/52.jpg"
-    
-        },
-        {
-            "id": 27,
-            "title": "Containment",
-            "release": "2015",
-            "duration": "1h 17m",
-            "genres": "Thriller, Horror, Science Fiction",
-            "synopsis": "Neighbors in a block wake one morning to find they have been sealed inside their apartments. Can they work together to find out why? Or will they destroy each other in their fight to escape?",
-            "image": "./images/53.jpg"
-    
-        },
-        {
-            "id": 28,
-            "title": "21 Bridges",
-            "release": "2019",
-            "duration": "1h 39m",
-            "genres": "Crime, Action, Drama",
-            "synopsis": "An embattled NYPD detective, is thrust into a citywide manhunt for a pair of cop killers after uncovering a massive and unexpected conspiracy. As the night unfolds, lines become blurred on who he is pursuing, and who is in pursuit of him.",
-            "image": "./images/54.jpg"
-    
-        },
-        {
-            "id": 29,
-            "title": "In Time",
-            "release": "2011",
-            "duration": "1h 49m",
-            "genres": "Action, Thriller, Science Fiction",
-            "synopsis": "In the not-too-distant future the aging gene has been switched off. To avoid overpopulation, time has become the currency and the way people pay for luxuries and necessities. The rich can live forever, while the rest try to negotiate for their immortality. A poor young man who comes into a fortune of time, though too late to help his mother from dying. He ends up on the run from a corrupt police force known as 'time keepers'.",
-            "image": "./images/55.jpg"
-    
-        },
-        {
-            "id": 30,
-            "title": "Black Swan",
-            "release": "2010",
-            "duration": "1h 49m",
-            "genres": "Drama, Thriller, Horror",
-            "synopsis": "A journey through the psyche of a young ballerina whose starring role as the duplicitous swan queen turns out to be a part for which she becomes frighteningly perfect.",
-            "image": "./images/56.jpg"
-    
-        },
-        {
-            "id": 31,
-            "title": "Peppermint",
-            "release": "2018",
-            "duration": "1h 41m",
-            "genres": "Action, Thriller",
-            "synopsis": "A grieving mother transforms herself into a vigilante following the murders of her husband and daughter, eluding the authorities to deliver her own personal brand of justice.",
-            "image": "./images/57.jpg"
-    
-        },
-        {
-            "id": 32,
-            "title": "The kitchen",
-            "release": "2019",
-            "duration": "1h 42m",
-            "genres": "Action, Crime, Drama",
-            "synopsis": "The mobster husbands of three 1978 Hell's Kitchen housewives are sent to prison by the FBI. Left with little but a sharp ax to grind, the ladies take the Irish mafia's matters into their own hands — proving unexpectedly adept at everything from running the rackets to taking out the competition… literally.",
-            "image": "./images/58.jpg"
-    
-        },
-        {
-            "id": 33,
-            "title": "Underworld: Awakening",
-            "release": "2016",
-            "duration": "1h 31m",
-            "genres": "Fantasy, Action, Horror",
-            "synopsis": "Having escaped years of imprisonment, vampire warrioress Selene finds herself in a changed world where humans have discovered the existence of both Vampire and Lycan clans and are conducting an all-out war to eradicate both immortal species. Now Selene must battle the humans and a frightening new breed of super Lycans to ensure the death dealers' survival.",
-            "image": "./images/59.jpg"
-    
-        },
-        {
-            "id": 34,
-            "title": "The Theory of Everything",
-            "release": "2014",
-            "duration": "2h 3m",
-            "genres": "Drama, Romance",
-            "synopsis": "The Theory of Everything is the extraordinary story of one of the world’s greatest living minds, the renowned astrophysicist Stephen Hawking, who falls deeply in love with fellow Cambridge student Jane Wilde.",
-           "image": "./images/60.jpg"
-    
-        },
-        {
-            "id": 35,
-            "title": "Carriers",
-            "release": "2009",
-            "duration": "1h 25m",
-            "genres": "Action, Drama, Horror, Science Fiction, Thriller",
-            "synopsis": "A deadly virus has spread across the globe. Contagion is everywhere, no one is safe, and no one can be trusted. Four friends race through the back roads of the American West on their way to a secluded utopian beach in the Gulf of Mexico where they could peacefully wait out the pandemic. Their plans take a grim turn when their car breaks down on an isolated road starting a chain of events that will seal their fates.",
-            "image": "./images/61.jpg"
-    
-        },
-        {
-            "id": 36,
-            "title": "How It Ends",
-            "release": "2018",
-            "duration": "1h 53m",
-            "genres": "Science Fiction, Thriller, Mystery, Action, Adventure",
-            "synopsis": "A desperate father tries to return home to his pregnant wife after a mysterious apocalyptic event turns everything to chaos.",
-            "image": "./images/62.jpg"
-    
-        },
-        {
-            "id": 37,
-            "title": "OVNI",
-            "release": "2018",
-            "duration": "1h 28m",
-            "genres": "Science Fiction, Action, Thriller",
-            "synopsis": "A college student, who sees a UFO, uses his exceptional math skills to investigate the sighting with his friends while the FBI follows closely behind.",
-            "image": "./images/63.jpg"
-    
-        },
-        {
-            "id": 38,
-            "title": "Think like a Dog",
-            "release": "2020",
-            "duration": "1h 31m",
-            "genres": "Family, Comedy, Drama",
-            "synopsis": "A 12-year-old tech prodigy, whose science experiment goes awry, forges a telepathic connection with his best friend, Henry-his dog! The duo join forces and use their unique perspectives on life to comically overcome complications of family and school.",
-           "image": "./images/64.jpg"
-    
-        },
-        {
-            "id": 39,
-            "title": "The Circle",
-            "release": "2017",
-            "duration": "1h 50m",
-            "genres": "Drama, Thriller, Science Fiction",
-            "synopsis": "A young tech worker takes a job at a powerful Internet corporation, quickly rises up the company's ranks, and soon finds herself in a perilous situation concerning privacy, surveillance and freedom. She comes to learn that her decisions and actions will determine the future of humanity.",
-           "image": "./images/65.jpg"
-    
-        },
-        {
-            "id": 40,
-            "title": "Blood Brothers: Malcolm X and Muhammad Ali",
-            "release": "2021",
-            "duration": "1h 35m",
-            "genres": "Documentary, History",
-            "synopsis": "From a chance meeting to a tragic fallout, Malcolm X and Muhammad Ali's extraordinary bond cracks under the weight of distrust and shifting ideals.",
-            "image": "./images/66.jpg"
-    
-        },
-        {
-            "id": 41,
-            "title": "Easy A",
-            "release": "2010",
-            "duration": "1h 29m",
-            "genres": "Comedy",
-            "synopsis": "Olive, an average high school student, sees her below-the-radar existence turn around overnight once she decides to use the school's gossip grapevine to advance her social standing. Now her classmates are turning against her and the school board is becoming concerned, including her favorite teacher and the distracted guidance counselor. With the support of her hilariously idiosyncratic parents and a little help from a long-time crush, Olive attempts to take on her notorious new identity and crush the rumor mill once and for all.",
-            "image": "./images/67.jpg"
-    
-        },
-        {
-            "id": 42,
-            "title": "Allied",
-            "release": "2018",
-            "duration": "2h 4m",
-            "genres": "Acción, Drama, Bélica, Romance, Suspense",
-            "synopsis": "release 1942 durante la Segunda Guerra Mundial. Max es un espía del bando aliado que se enamora de Marianne, una compañera francesa, tras una peligrosa misión en el norte de África. La pareja comienza una relación amorosa hasta que a él le notifican que Marianne puede que sea una agente doble que trabaja para los nazis.",
-            "image": "./images/68.jpg"
-    
-        },
-        {
-            "id": 43,
-            "title": "Call of wild",
-            "release": "2018",
-            "duration": "1h 45m",
-            "genres": "Action, Drama, War, Romance, Thriller",
-            "synopsis": "In 1942, an intelligence officer in North Africa encounters a female French Resistance fighter on a deadly mission behind enemy lines. When they reunite in London, their relationship is tested by the pressures of war.",
-            "image": "./images/69.jpg"
-    
-        },
-        {
-            "id": 44,
-            "title": "V for Vendetta",
-            "release": "2006",
-            "duration": "2h 12m",
-            "genres": "Acción, Ciencia ficción, Drama",
-            "synopsis": "In a world in which Great Britain has become a fascist state, a masked vigilante known only as “V” conducts guerrilla warfare against the oppressive British government. When V rescues a young woman from the secret police, he finds in her an ally with whom he can continue his fight to free the people of Britain.",
-            "image": "./images/70.jpg"
-    
-        },
-        {
-            "id": 45,
-            "title": "Den of Thieves",
-            "release": "2018",
-            "duration": "2h 20m",
-            "genres": "Action, Thriller, Crime",
-            "synopsis": "A gritty crime saga which follows the lives of an elite unit of the LA County Sheriff's Dept. and the state's most successful bank robbery crew as the outlaws plan a seemingly impossible heist on the Federal Reserve Bank.",
-            "image": "./images/71.jpg"
-    
-        },
-        {
-            "id": 46,
-            "title": "Creed",
-            "release": "2015",
-            "duration": "2h 12m",
-            "genres": "Drama",
-            "synopsis": "The former World Heavyweight Champion Rocky Balboa serves as a trainer and mentor to Adonis Johnson, the son of his late friend and former rival Apollo Creed.",
-            "image": "./images/72.jpg"
-    
-        },
-        {
-            "id": 47,
-            "title": "The Rental",
-            "release": "2020",
-            "duration": "1h 28m",
-            "genres": "Horror",
-            "synopsis": "Two couples on an oceanside getaway grow suspicious that the host of their seemingly perfect rental house may be spying on them. Before long, what should have been a celebratory weekend trip turns into something far more sinister.",
-         "image": "./images/73.jpg"
-    
-        },
-        {
-            "id": 48,
-            "title": "The Girl on the Train",
-            "release": "2016",
-            "duration": "1h 52m",
-            "genres": "Crime, Drama, Mystery, Thriller",
-            "synopsis": "Rachel Watson, devastated by her recent divorce, spends her daily commute fantasizing about the seemingly perfect couple who live in a house that her train passes every day, until one morning she sees something shocking happen there and becomes entangled in the mystery that unfolds.",
-            "image": "./images/74.jpg"
-    
-        }
-    ]
-  }
+  "movies": [
+    {
+      "id": 1,
+      "title": "Bird Box",
+      "release": "2018",
+      "duration": "2h 4m",
+      "genres": "Thriller, Drama, Science Fiction",
+      "synopsis": "Five years after an ominous unseen presence drives most of society to suicide, a survivor and her two children make a desperate bid to reach safety.",
+      "image": "./images/27.jpg"
+    },
+    {
+      "id": 2,
+      "title": "The Irishman",
+      "release": "2019",
+      "duration": "3h 29m",
+      "genres": "Crime, Drama, History",
+      "synopsis": "Pennsylvania, 1956. Frank Sheeran, a war veteran of Irish origin who works as a truck driver, accidentally meets mobster Russell Bufalino. Once Frank becomes his trusted man, Bufalino sends him to Chicago with the task of helping Jimmy Hoffa, a powerful union leader related to organized crime, with whom Frank will maintain a close friendship for nearly twenty years.",
+      "image": "./images/28.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Extraction",
+      "release": "2020",
+      "duration": "1h 56m",
+      "genres": "Drama, Action, Thriller",
+      "synopsis": "Tyler Rake, a fearless mercenary who offers his services on the black market, embarks on a dangerous mission when he is hired to rescue the kidnapped son of a Mumbai crime lord.",
+      "image": "./images/29.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Cherry",
+      "release": "2021",
+      "duration": "2h 20m",
+      "genres": "Crime, Drama",
+      "synopsis": "Cherry drifts from college dropout to army medic in Iraq - anchored only by his true love, Emily. But after returning from the war with PTSD, his life spirals into drugs and crime as he struggles to find his place in the world.",
+      "image": "./images/30.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Crisis",
+      "release": "2021",
+      "duration": "1h 58m",
+      "genres": "Thriller, Crime, Drama",
+      "synopsis": "Three stories about the world of opioids collide: a drug trafficker arranges a multi-cartel Fentanyl smuggling operation between Canada and the U.S., an architect recovering from an OxyContin addiction tracks down the truth behind her son's involvement with narcotics, and a university professor battles unexpected revelations about his research employer, a drug company with deep government influence bringing a new -non-addictive- painkiller to market.",
+      "image": "./images/31.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Tenet",
+      "release": "2020",
+      "duration": "2h 35m",
+      "genres": "Action, Thriller, Science Fiction",
+      "synopsis": "Armed with only one word - Tenet - and fighting for the survival of the entire world, the Protagonist journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time.",
+      "image": "./images/32.jpg"
+    },
+    {
+      "id": 7,
+      "title": "The Exorcism of Carmen Farias",
+      "release": "2021",
+      "duration": "1h 50m",
+      "genres": "Horror",
+      "synopsis": "Carmen, a brave journalist, discovers soon after her mother's death that she has inherited her grandma's house. She decides to move there without knowing it hides dark secrets.",
+      "image": "./images/33.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Crawl",
+      "release": "2019",
+      "duration": "1h 28m",
+      "genres": "Thriller, Horror",
+      "synopsis": "When a huge hurricane hits her hometown in Florida, Haley ignores evacuation orders to look for her father. After finding him badly wounded, both are trapped by the flood. With virtually no time to escape the storm, they discover that rising water levels are the least of their problems.",
+      "image": "./images/34.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Alone",
+      "release": "2020",
+      "duration": "1h 40m",
+      "genres": "Thriller, Horror, Drama",
+      "synopsis": "A recently widowed traveler is kidnapped by a cold blooded killer, only to escape into the wilderness where she is forced to battle against the elements as her pursuer closes in on her.",
+      "image": "./images/35.jpg"
+    },
+    {
+      "id": 10,
+      "title": "The Tax Collector",
+      "release": "2020",
+      "duration": "1h 35m",
+      "genres": "Action, Crime, Drama",
+      "synopsis": "David Cuevas is a family man who works as a gangland tax collector for high ranking Los Angeles gang members. He makes collections across the city with his partner Creeper making sure people pay up or will see retaliation. An old threat returns to Los Angeles that puts everything David loves in harm’s way.",
+      "image": "./images/36.jpg"
+    },
+    {
+      "id": 11,
+      "title": "Charlie's Angels",
+      "release": "2018",
+      "duration": "2h 5m",
+      "genres": "Action, Adventure, Comedy",
+      "synopsis": "When a systems engineer blows the whistle on a dangerous technology, Charlie's Angels from across the globe are called into action, putting their lives on the line to protect society.",
+      "image": "./images/37.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Nobody",
+      "release": "2021",
+      "duration": "1h 32m",
+      "genres": "Action, Crime, Thriller, Drama",
+      "synopsis": "Hutch Mansell, a suburban dad, overlooked husband, nothing neighbor — a -nobody.- When two thieves break into his home one night, Hutch's unknown long-simmering rage is ignited and propels him on a brutal path that will uncover dark secrets he fought to leave behind.",
+      "image": "./images/38.jpg"
+    },
+    {
+      "id": 13,
+      "title": "Awake",
+      "release": "2021",
+      "duration": "1h 36m",
+      "genres": "Drama, Science Fiction, Thriller",
+      "synopsis": "After a sudden global event wipes out all electronics and takes away humankind’s ability to sleep, chaos quickly begins to consume the world. Only Jill, an ex-soldier with a troubled past, may hold the key to a cure in the form of her own daughter. The question is, can Jill safely deliver her daughter and save the world before she herself loses her mind.",
+      "image": "./images/39.jpg"
+    },
+    {
+      "id": 14,
+      "title": "London Has Fallen",
+      "release": "2016",
+      "duration": "1h 39m",
+      "genres": "London Has Fallen",
+      "synopsis": "In London for the Prime Minister's funeral, Mike Banning discovers a plot to assassinate all the attending world leaders.",
+      "image": "./images/40.jpg"
+    },
+    {
+      "id": 15,
+      "title": "Fifty Shades Darker",
+      "release": "2017",
+      "duration": "1h 55m",
+      "genres": "Drama, Romance",
+      "synopsis": "When a wounded Christian Grey tries to entice a cautious Ana Steele back into his life, she demands a new arrangement before she will give him another chance. As the two begin to build trust and find stability, shadowy figures from Christian’s past start to circle the couple, determined to destroy their hopes for a future together.",
+      "image": "./images/41.jpg"
+    },
+    {
+      "id": 16,
+      "title": "Hidden Figures",
+      "release": "2016",
+      "duration": "2h 7m",
+      "genres": "Drama, History",
+      "synopsis": "The untold story of Katherine G. Johnson, Dorothy Vaughan and Mary Jackson – brilliant African-American women working at NASA and serving as the brains behind one of the greatest operations in history – the launch of astronaut John Glenn into orbit. The visionary trio crossed all gender and race lines to inspire generations to dream big.",
+      "image": "./images/42.jpg"
+    },
+    {
+      "id": 17,
+      "title": "Interstellar",
+      "release": "2014",
+      "duration": "2h 49m",
+      "genres": "Adventure, Drama, Science Fiction",
+      "synopsis": "The adventures of a group of explorers who make use of a newly discovered wormhole to surpass the limitations on human space travel and conquer the vast distances involved in an interstellar voyage.",
+      "image": "./images/43.jpg"
+    },
+    {
+      "id": 18,
+      "title": "Knock Knock",
+      "release": "2015",
+      "duration": "1h 39m",
+      "genres": "Drama, Thriller, Horror",
+      "synopsis": "When a devoted husband and father is left home alone for the weekend, two stranded young women unexpectedly knock on his door for help. What starts out as a kind gesture results in a dangerous seduction and a deadly game of cat and mouse.",
+      "image": "./images/44.jpg"
+    },
+    {
+      "id": 19,
+      "title": "The Maze Runner",
+      "release": "2015",
+      "duration": "2h 12m",
+      "genres": "Action, Mystery, Science Fiction, Thriller",
+      "synopsis": "Set in a post-apocalyptic world, young Thomas is deposited in a community of boys after his memory is erased, soon learning they're all trapped in a maze that will require him to join forces with fellow “runners” for a shot at escape.",
+      "image": "./images/45.jpg"
+    },
+    {
+      "id": 20,
+      "title": "Mortal engines",
+      "release": "2018",
+      "duration": "2h 8m",
+      "genres": "Aventura, Ciencia ficción",
+      "synopsis": "Miles de releases después de la destrucción de la civilización por un cataclismo, la humanidad se ha adaptado y, ahora, existen gigantescas ciudades en movimiento que vagan por la tierra sobre enormes ruedas absorbiendo a los pueblos más pequeños para obtener recursos. En una de esas colosales urbes Tom Natsworthy (Robert Sheehan), proveniente de la clase baja de Londres, deberá luchar por su vida junto a la peligrosa fugitiva Hester Shaw (Hera Hilmar). Dos opuestos, cuyos caminos nunca debieron cruzarse, forman una peculiar alianza destinada a cambiar el curso del futuro.",
+      "image": "./images/46.jpg"
+    },
+    {
+      "id": 21,
+      "title": "First Man",
+      "release": "2018",
+      "duration": "2h 21m",
+      "genres": "History, Drama",
+      "synopsis": "Set in a post-apocalyptic world, young Thomas is deposited in a community of boys after his memory is erased, soon learning they're all trapped in a maze that will require him to join forces with fellow “runners” for a shot at escape.",
+      "image": "./images/47.jpg"
+    },
+    {
+      "id": 22,
+      "title": "The Revenant",
+      "release": "2015",
+      "duration": "2h 4m",
+      "genres": "Western, Drama, Adventure",
+      "synopsis": "In the 1820s, a frontiersman, Hugh Glass, sets out on a path of vengeance against those who left him for dead after a bear mauling.",
+      "image": "./images/48.jpg"
+    },
+    {
+      "id": 23,
+      "title": "The Accountant",
+      "release": "2016",
+      "duration": "2h 8m",
+      "genres": "Crime, Thriller, Drama",
+      "synopsis": "As a math savant uncooks the books for a new client, the Treasury Department closes in on his activities and the body count starts to rise.",
+      "image": "./images/49.jpg"
+    },
+    {
+      "id": 24,
+      "title": "IO",
+      "release": "2019",
+      "duration": "2h 4m",
+      "genres": "Science Fiction",
+      "synopsis": "As a young scientist searches for a way to save a dying Earth, she finds a connection with a man who's racing to catch the last shuttle off the planet.",
+      "image": "./images/50.jpg"
+    },
+    {
+      "id": 25,
+      "title": "Baby Driver",
+      "release": "2017",
+      "duration": "1h 55m",
+      "genres": "Action, Crime",
+      "synopsis": "After being coerced into working for a crime boss, a young getaway driver finds himself taking part in a heist doomed to fail.",
+      "image": "./images/51.jpg"
+    },
+    {
+      "id": 26,
+      "title": "Gifted",
+      "release": "2017",
+      "duration": "1h 41m",
+      "genres": "Family, Drama, Comedy",
+      "synopsis": "Frank, a single man raising his child prodigy niece Mary, is drawn into a custody battle with his mother.",
+      "image": "./images/52.jpg"
+    },
+    {
+      "id": 27,
+      "title": "Containment",
+      "release": "2015",
+      "duration": "1h 17m",
+      "genres": "Thriller, Horror, Science Fiction",
+      "synopsis": "Neighbors in a block wake one morning to find they have been sealed inside their apartments. Can they work together to find out why? Or will they destroy each other in their fight to escape?",
+      "image": "./images/53.jpg"
+    },
+    {
+      "id": 28,
+      "title": "21 Bridges",
+      "release": "2019",
+      "duration": "1h 39m",
+      "genres": "Crime, Action, Drama",
+      "synopsis": "An embattled NYPD detective, is thrust into a citywide manhunt for a pair of cop killers after uncovering a massive and unexpected conspiracy. As the night unfolds, lines become blurred on who he is pursuing, and who is in pursuit of him.",
+      "image": "./images/54.jpg"
+    },
+    {
+      "id": 29,
+      "title": "In Time",
+      "release": "2011",
+      "duration": "1h 49m",
+      "genres": "Action, Thriller, Science Fiction",
+      "synopsis": "In the not-too-distant future the aging gene has been switched off. To avoid overpopulation, time has become the currency and the way people pay for luxuries and necessities. The rich can live forever, while the rest try to negotiate for their immortality. A poor young man who comes into a fortune of time, though too late to help his mother from dying. He ends up on the run from a corrupt police force known as 'time keepers'.",
+      "image": "./images/55.jpg"
+    },
+    {
+      "id": 30,
+      "title": "Black Swan",
+      "release": "2010",
+      "duration": "1h 49m",
+      "genres": "Drama, Thriller, Horror",
+      "synopsis": "A journey through the psyche of a young ballerina whose starring role as the duplicitous swan queen turns out to be a part for which she becomes frighteningly perfect.",
+      "image": "./images/56.jpg"
+    },
+    {
+      "id": 31,
+      "title": "Peppermint",
+      "release": "2018",
+      "duration": "1h 41m",
+      "genres": "Action, Thriller",
+      "synopsis": "A grieving mother transforms herself into a vigilante following the murders of her husband and daughter, eluding the authorities to deliver her own personal brand of justice.",
+      "image": "./images/57.jpg"
+    },
+    {
+      "id": 32,
+      "title": "The kitchen",
+      "release": "2019",
+      "duration": "1h 42m",
+      "genres": "Action, Crime, Drama",
+      "synopsis": "The mobster husbands of three 1978 Hell's Kitchen housewives are sent to prison by the FBI. Left with little but a sharp ax to grind, the ladies take the Irish mafia's matters into their own hands — proving unexpectedly adept at everything from running the rackets to taking out the competition… literally.",
+      "image": "./images/58.jpg"
+    },
+    {
+      "id": 33,
+      "title": "Underworld: Awakening",
+      "release": "2016",
+      "duration": "1h 31m",
+      "genres": "Fantasy, Action, Horror",
+      "synopsis": "Having escaped years of imprisonment, vampire warrioress Selene finds herself in a changed world where humans have discovered the existence of both Vampire and Lycan clans and are conducting an all-out war to eradicate both immortal species. Now Selene must battle the humans and a frightening new breed of super Lycans to ensure the death dealers' survival.",
+      "image": "./images/59.jpg"
+    },
+    {
+      "id": 34,
+      "title": "The Theory of Everything",
+      "release": "2014",
+      "duration": "2h 3m",
+      "genres": "Drama, Romance",
+      "synopsis": "The Theory of Everything is the extraordinary story of one of the world’s greatest living minds, the renowned astrophysicist Stephen Hawking, who falls deeply in love with fellow Cambridge student Jane Wilde.",
+      "image": "./images/60.jpg"
+    },
+    {
+      "id": 35,
+      "title": "Carriers",
+      "release": "2009",
+      "duration": "1h 25m",
+      "genres": "Action, Drama, Horror, Science Fiction, Thriller",
+      "synopsis": "A deadly virus has spread across the globe. Contagion is everywhere, no one is safe, and no one can be trusted. Four friends race through the back roads of the American West on their way to a secluded utopian beach in the Gulf of Mexico where they could peacefully wait out the pandemic. Their plans take a grim turn when their car breaks down on an isolated road starting a chain of events that will seal their fates.",
+      "image": "./images/61.jpg"
+    },
+    {
+      "id": 36,
+      "title": "How It Ends",
+      "release": "2018",
+      "duration": "1h 53m",
+      "genres": "Science Fiction, Thriller, Mystery, Action, Adventure",
+      "synopsis": "A desperate father tries to return home to his pregnant wife after a mysterious apocalyptic event turns everything to chaos.",
+      "image": "./images/62.jpg"
+    },
+    {
+      "id": 37,
+      "title": "OVNI",
+      "release": "2018",
+      "duration": "1h 28m",
+      "genres": "Science Fiction, Action, Thriller",
+      "synopsis": "A college student, who sees a UFO, uses his exceptional math skills to investigate the sighting with his friends while the FBI follows closely behind.",
+      "image": "./images/63.jpg"
+    },
+    {
+      "id": 38,
+      "title": "Think like a Dog",
+      "release": "2020",
+      "duration": "1h 31m",
+      "genres": "Family, Comedy, Drama",
+      "synopsis": "A 12-year-old tech prodigy, whose science experiment goes awry, forges a telepathic connection with his best friend, Henry-his dog! The duo join forces and use their unique perspectives on life to comically overcome complications of family and school.",
+      "image": "./images/64.jpg"
+    },
+    {
+      "id": 39,
+      "title": "The Circle",
+      "release": "2017",
+      "duration": "1h 50m",
+      "genres": "Drama, Thriller, Science Fiction",
+      "synopsis": "A young tech worker takes a job at a powerful Internet corporation, quickly rises up the company's ranks, and soon finds herself in a perilous situation concerning privacy, surveillance and freedom. She comes to learn that her decisions and actions will determine the future of humanity.",
+      "image": "./images/65.jpg"
+    },
+    {
+      "id": 40,
+      "title": "Blood Brothers: Malcolm X and Muhammad Ali",
+      "release": "2021",
+      "duration": "1h 35m",
+      "genres": "Documentary, History",
+      "synopsis": "From a chance meeting to a tragic fallout, Malcolm X and Muhammad Ali's extraordinary bond cracks under the weight of distrust and shifting ideals.",
+      "image": "./images/66.jpg"
+    },
+    {
+      "id": 41,
+      "title": "Easy A",
+      "release": "2010",
+      "duration": "1h 29m",
+      "genres": "Comedy",
+      "synopsis": "Olive, an average high school student, sees her below-the-radar existence turn around overnight once she decides to use the school's gossip grapevine to advance her social standing. Now her classmates are turning against her and the school board is becoming concerned, including her favorite teacher and the distracted guidance counselor. With the support of her hilariously idiosyncratic parents and a little help from a long-time crush, Olive attempts to take on her notorious new identity and crush the rumor mill once and for all.",
+      "image": "./images/67.jpg"
+    },
+    {
+      "id": 42,
+      "title": "Allied",
+      "release": "2018",
+      "duration": "2h 4m",
+      "genres": "Acción, Drama, Bélica, Romance, Suspense",
+      "synopsis": "release 1942 durante la Segunda Guerra Mundial. Max es un espía del bando aliado que se enamora de Marianne, una compañera francesa, tras una peligrosa misión en el norte de África. La pareja comienza una relación amorosa hasta que a él le notifican que Marianne puede que sea una agente doble que trabaja para los nazis.",
+      "image": "./images/68.jpg"
+    },
+    {
+      "id": 43,
+      "title": "Call of wild",
+      "release": "2018",
+      "duration": "1h 45m",
+      "genres": "Action, Drama, War, Romance, Thriller",
+      "synopsis": "In 1942, an intelligence officer in North Africa encounters a female French Resistance fighter on a deadly mission behind enemy lines. When they reunite in London, their relationship is tested by the pressures of war.",
+      "image": "./images/69.jpg"
+    },
+    {
+      "id": 44,
+      "title": "V for Vendetta",
+      "release": "2006",
+      "duration": "2h 12m",
+      "genres": "Acción, Ciencia ficción, Drama",
+      "synopsis": "In a world in which Great Britain has become a fascist state, a masked vigilante known only as “V” conducts guerrilla warfare against the oppressive British government. When V rescues a young woman from the secret police, he finds in her an ally with whom he can continue his fight to free the people of Britain.",
+      "image": "./images/70.jpg"
+    },
+    {
+      "id": 45,
+      "title": "Den of Thieves",
+      "release": "2018",
+      "duration": "2h 20m",
+      "genres": "Action, Thriller, Crime",
+      "synopsis": "A gritty crime saga which follows the lives of an elite unit of the LA County Sheriff's Dept. and the state's most successful bank robbery crew as the outlaws plan a seemingly impossible heist on the Federal Reserve Bank.",
+      "image": "./images/71.jpg"
+    },
+    {
+      "id": 46,
+      "title": "Creed",
+      "release": "2015",
+      "duration": "2h 12m",
+      "genres": "Drama",
+      "synopsis": "The former World Heavyweight Champion Rocky Balboa serves as a trainer and mentor to Adonis Johnson, the son of his late friend and former rival Apollo Creed.",
+      "image": "./images/72.jpg"
+    },
+    {
+      "id": 47,
+      "title": "The Rental",
+      "release": "2020",
+      "duration": "1h 28m",
+      "genres": "Horror",
+      "synopsis": "Two couples on an oceanside getaway grow suspicious that the host of their seemingly perfect rental house may be spying on them. Before long, what should have been a celebratory weekend trip turns into something far more sinister.",
+      "image": "./images/73.jpg"
+    },
+    {
+      "id": 48,
+      "title": "The Girl on the Train",
+      "release": "2016",
+      "duration": "1h 52m",
+      "genres": "Crime, Drama, Mystery, Thriller",
+      "synopsis": "Rachel Watson, devastated by her recent divorce, spends her daily commute fantasizing about the seemingly perfect couple who live in a house that her train passes every day, until one morning she sees something shocking happen there and becomes entangled in the mystery that unfolds.",
+      "image": "./images/74.jpg"
+    }
+  ]
+}
